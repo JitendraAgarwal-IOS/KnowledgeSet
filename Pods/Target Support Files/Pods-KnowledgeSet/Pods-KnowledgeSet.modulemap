@@ -1,0 +1,6 @@
+framework module Pods_KnowledgeSet {
+  umbrella header "Pods-KnowledgeSet-umbrella.h"
+
+  export *
+  module * { export * }
+}
