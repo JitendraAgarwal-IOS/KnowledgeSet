@@ -7,17 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginScreen: View {
    
     var body: some View {
-       LogoTile()
+       
+        LogoTile()
             
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginScreen()
     }
 }
 
@@ -38,6 +39,8 @@ struct LogoTile: View {
                     
                     LoginContiner()
                     RememberMeView()
+                    SocialLoginView()
+                    NewUserView()
                 }
                 
             }
@@ -96,6 +99,7 @@ struct RememberMeView: View {
     HStack {
         HStack {
             Circle()
+                .stroke(LinearGradient(gradient: .init(colors: [Color("Color"),Color("Color1")]), startPoint: .top, endPoint: .bottom), lineWidth: 2)
               .frame(width: 20, height: 20)
 
         Text("Remember me")
@@ -124,6 +128,100 @@ struct RememberMeView: View {
     .padding(.top, 20)
     .padding(.leading, 20)
     .padding(.trailing, 20)
+    }
+}
+
+struct SocialLoginView :  View {
+    
+    var body: some View {
+    
+        VStack {
+            HStack {
+                Rectangle()
+                    .fill(Color.black.opacity(0.05))
+                    .frame(width: 100, height: 5)
+                Text("SocialLogin")
+                    .fontWeight(.bold)
+                    .foregroundColor(Color("Color1"))
+                Rectangle()
+                    .fill(Color.black.opacity(0.05))
+                    .frame(width: 100, height: 5)
+                
+            }
+            .padding(.top)
+            
+            HStack(alignment: .center) {
+            
+                Button(action: {
+                    
+                }) {
+                    
+                    Image("fb")
+                        .resizable()
+                        .foregroundColor(.white)
+                        .frame(width: 35, height: 35)
+                        .padding(8)
+                        //.background(Color.red)
+                        .clipShape(Circle())
+                    
+                }
+                
+                Button(action: {
+                    
+                }) {
+                    
+                    Image("google")
+                        .resizable()
+                        .foregroundColor(.white)
+                        .frame(width: 35, height: 35)
+                        .padding(8)
+                        //.background(Color.red)
+                        .clipShape(Circle())
+                    
+                }
+                
+                Button(action: {
+                    
+                }) {
+                    
+                    Image("twitter")
+                        .resizable()
+                        .foregroundColor(.white)
+                        .frame(width: 35, height: 35)
+                        .padding(8)
+                       // .background(Color.red)
+                        .clipShape(Circle())
+                    
+                }
+                
+            }
+            .padding(.top)
+        }
+        
+       
+        
+    }
+    
+}
+struct NewUserView :  View {
+    
+    var body: some View {
+        
+        HStack(alignment: .center) {
+        
+            Text("New User?")
+               .fontWeight(.bold)
+            Button(action: {
+              
+            }) {
+              
+                Text("SIGNUP")
+                    .fontWeight(.bold)
+                    .foregroundColor(.blue)
+            }
+            
+        }
+        .padding(.top)
     }
 }
 
