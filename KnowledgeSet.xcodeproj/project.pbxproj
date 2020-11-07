@@ -18,6 +18,7 @@
 		475D09AA25552EEC0087A9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475D09A825552EEC0087A9B1 /* LaunchScreen.storyboard */; };
 		475D09B525552EEC0087A9B1 /* KnowledgeSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D09B425552EEC0087A9B1 /* KnowledgeSetTests.swift */; };
 		475D09C025552EED0087A9B1 /* KnowledgeSetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D09BF25552EED0087A9B1 /* KnowledgeSetUITests.swift */; };
+		47C2E48225557BFB00651F7A /* KNSetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C2E48125557BFB00651F7A /* KNSetTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		475D09BB25552EED0087A9B1 /* KnowledgeSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowledgeSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		475D09BF25552EED0087A9B1 /* KnowledgeSetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeSetUITests.swift; sourceTree = "<group>"; };
 		475D09C125552EED0087A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C2E48125557BFB00651F7A /* KNSetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNSetTextField.swift; sourceTree = "<group>"; };
 		605885AE977FD9E41520AC7A /* Pods_KnowledgeSetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnowledgeSetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDFEA8AF2FE5E1959FE3A99 /* Pods-KnowledgeSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowledgeSet.release.xcconfig"; path = "Target Support Files/Pods-KnowledgeSet/Pods-KnowledgeSet.release.xcconfig"; sourceTree = "<group>"; };
 		89369A99B2387E643CC35B18 /* Pods-KnowledgeSet-KnowledgeSetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowledgeSet-KnowledgeSetUITests.release.xcconfig"; path = "Target Support Files/Pods-KnowledgeSet-KnowledgeSetUITests/Pods-KnowledgeSet-KnowledgeSetUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				A2011D3A2C9E0379A6D98A22 /* Pods-KnowledgeSetTests.debug.xcconfig */,
 				8A1B807D0FBE8F4841F59DB0 /* Pods-KnowledgeSetTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,6 +131,7 @@
 		475D099C25552EEC0087A9B1 /* KnowledgeSet */ = {
 			isa = PBXGroup;
 			children = (
+				47C2E47F25557BB900651F7A /* Utlity */,
 				475D099D25552EEC0087A9B1 /* AppDelegate.swift */,
 				475D099F25552EEC0087A9B1 /* SceneDelegate.swift */,
 				475D09A125552EEC0087A9B1 /* ContentView.swift */,
@@ -165,6 +167,14 @@
 				475D09C125552EED0087A9B1 /* Info.plist */,
 			);
 			path = KnowledgeSetUITests;
+			sourceTree = "<group>";
+		};
+		47C2E47F25557BB900651F7A /* Utlity */ = {
+			isa = PBXGroup;
+			children = (
+				47C2E48125557BFB00651F7A /* KNSetTextField.swift */,
+			);
+			path = Utlity;
 			sourceTree = "<group>";
 		};
 		C44FA0649D595E10110FCA60 /* Frameworks */ = {
@@ -380,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475D099E25552EEC0087A9B1 /* AppDelegate.swift in Sources */,
+				47C2E48225557BFB00651F7A /* KNSetTextField.swift in Sources */,
 				475D09A025552EEC0087A9B1 /* SceneDelegate.swift in Sources */,
 				475D09A225552EEC0087A9B1 /* ContentView.swift in Sources */,
 			);
