@@ -12,12 +12,15 @@
 		43151F5E632EAB966BD972CC /* Pods_KnowledgeSet_KnowledgeSetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BEE73CD199AB2850DD551B /* Pods_KnowledgeSet_KnowledgeSetUITests.framework */; };
 		475D099E25552EEC0087A9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D099D25552EEC0087A9B1 /* AppDelegate.swift */; };
 		475D09A025552EEC0087A9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D099F25552EEC0087A9B1 /* SceneDelegate.swift */; };
-		475D09A225552EEC0087A9B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D09A125552EEC0087A9B1 /* ContentView.swift */; };
+		475D09A225552EEC0087A9B1 /* LoginScreen .swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D09A125552EEC0087A9B1 /* LoginScreen .swift */; };
 		475D09A425552EEC0087A9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475D09A325552EEC0087A9B1 /* Assets.xcassets */; };
 		475D09A725552EEC0087A9B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475D09A625552EEC0087A9B1 /* Preview Assets.xcassets */; };
 		475D09AA25552EEC0087A9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475D09A825552EEC0087A9B1 /* LaunchScreen.storyboard */; };
 		475D09B525552EEC0087A9B1 /* KnowledgeSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D09B425552EEC0087A9B1 /* KnowledgeSetTests.swift */; };
 		475D09C025552EED0087A9B1 /* KnowledgeSetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D09BF25552EED0087A9B1 /* KnowledgeSetUITests.swift */; };
+		4785D9A42557E6BE00E73D32 /* JACustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785D9A32557E6BE00E73D32 /* JACustomTabBar.swift */; };
+		4785D9AA2557F04000E73D32 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785D9A92557F04000E73D32 /* Constant.swift */; };
+		4785D9B22557F10100E73D32 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785D9B12557F10100E73D32 /* DashboardScreen.swift */; };
 		47C2E48225557BFB00651F7A /* KNSetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C2E48125557BFB00651F7A /* KNSetTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +48,7 @@
 		475D099A25552EEC0087A9B1 /* KnowledgeSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowledgeSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475D099D25552EEC0087A9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475D099F25552EEC0087A9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		475D09A125552EEC0087A9B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		475D09A125552EEC0087A9B1 /* LoginScreen .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginScreen .swift"; sourceTree = "<group>"; };
 		475D09A325552EEC0087A9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475D09A625552EEC0087A9B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		475D09A925552EEC0087A9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +59,9 @@
 		475D09BB25552EED0087A9B1 /* KnowledgeSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowledgeSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		475D09BF25552EED0087A9B1 /* KnowledgeSetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeSetUITests.swift; sourceTree = "<group>"; };
 		475D09C125552EED0087A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4785D9A32557E6BE00E73D32 /* JACustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JACustomTabBar.swift; sourceTree = "<group>"; };
+		4785D9A92557F04000E73D32 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4785D9B12557F10100E73D32 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
 		47C2E48125557BFB00651F7A /* KNSetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNSetTextField.swift; sourceTree = "<group>"; };
 		605885AE977FD9E41520AC7A /* Pods_KnowledgeSetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnowledgeSetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDFEA8AF2FE5E1959FE3A99 /* Pods-KnowledgeSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowledgeSet.release.xcconfig"; path = "Target Support Files/Pods-KnowledgeSet/Pods-KnowledgeSet.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,10 +137,11 @@
 		475D099C25552EEC0087A9B1 /* KnowledgeSet */ = {
 			isa = PBXGroup;
 			children = (
+				4785D9A82557F00F00E73D32 /* Common */,
+				4785D9992557D1CC00E73D32 /* Controller */,
 				47C2E47F25557BB900651F7A /* Utlity */,
 				475D099D25552EEC0087A9B1 /* AppDelegate.swift */,
 				475D099F25552EEC0087A9B1 /* SceneDelegate.swift */,
-				475D09A125552EEC0087A9B1 /* ContentView.swift */,
 				475D09A325552EEC0087A9B1 /* Assets.xcassets */,
 				475D09A825552EEC0087A9B1 /* LaunchScreen.storyboard */,
 				475D09AB25552EEC0087A9B1 /* Info.plist */,
@@ -169,10 +176,28 @@
 			path = KnowledgeSetUITests;
 			sourceTree = "<group>";
 		};
+		4785D9992557D1CC00E73D32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				475D09A125552EEC0087A9B1 /* LoginScreen .swift */,
+				4785D9B12557F10100E73D32 /* DashboardScreen.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4785D9A82557F00F00E73D32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4785D9A92557F04000E73D32 /* Constant.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		47C2E47F25557BB900651F7A /* Utlity */ = {
 			isa = PBXGroup;
 			children = (
 				47C2E48125557BFB00651F7A /* KNSetTextField.swift */,
+				4785D9A32557E6BE00E73D32 /* JACustomTabBar.swift */,
 			);
 			path = Utlity;
 			sourceTree = "<group>";
@@ -392,7 +417,10 @@
 				475D099E25552EEC0087A9B1 /* AppDelegate.swift in Sources */,
 				47C2E48225557BFB00651F7A /* KNSetTextField.swift in Sources */,
 				475D09A025552EEC0087A9B1 /* SceneDelegate.swift in Sources */,
-				475D09A225552EEC0087A9B1 /* ContentView.swift in Sources */,
+				4785D9A42557E6BE00E73D32 /* JACustomTabBar.swift in Sources */,
+				475D09A225552EEC0087A9B1 /* LoginScreen .swift in Sources */,
+				4785D9AA2557F04000E73D32 /* Constant.swift in Sources */,
+				4785D9B22557F10100E73D32 /* DashboardScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
